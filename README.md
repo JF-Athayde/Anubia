@@ -1,24 +1,27 @@
-Anubia
-Anubia is a Python library that implements an enhanced version of a Multilayer Perceptron (MLP), designed to simplify the creation and training of neural networks in a straightforward and efficient way.
+# Anubia
 
-🚀 Features
-Lightweight and straightforward MLP implementation.
+**Anubia** is a Python library that implements an enhanced version of a Multilayer Perceptron (MLP), designed to simplify the creation and training of neural networks in a straightforward and efficient way.
 
-Ideal for learning and experimenting with neural networks.
+## 🚀 Features
 
-100% pure Python code, no external dependencies.
+- Lightweight and straightforward MLP implementation.  
+- Ideal for learning and experimenting with neural networks.  
+- 100% pure Python code, no external dependencies.
 
-📊 Technical Details
-Support for multiple hidden layers.
+## 📊 Technical Details
 
-Activation functions: sigmoid, tanh, and relu.
+- Support for multiple hidden layers.  
+- Activation functions: `sigmoid`, `tanh`, and `relu`.  
+- Training via **backpropagation**.  
+- **Mean Squared Error (MSE)** calculation.  
+- Optimization with adjustable learning rate.  
+- Implemented using only NumPy for vector operations.
 
-Training via backpropagation.
+More details in the [`anubia.py`](https://github.com/JF-Athayde/Anubia/blob/main/anubia.py) file.
 
-Mean Squared Error (MSE) calculation.
+## 📦 Installation
 
-Optimization with adjustable learning rate.
+Clone this repository to get the source code:
 
-Implemented using only NumPy for vector operations.
-
-More details in the anubia.py file.
+```bash
+git clone https://github.com/JF-Athayde/Anubia.git
